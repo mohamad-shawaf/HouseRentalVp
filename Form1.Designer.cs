@@ -1,6 +1,6 @@
 ﻿namespace HouseRentalVp
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,110 +28,134 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.Title = new System.Windows.Forms.Label();
+            this.LoginButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.RegisterButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Logo = new System.Windows.Forms.PictureBox();
+            this.CloseButton = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // Title
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.Brown;
-            this.label1.Location = new System.Drawing.Point(90, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 38);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Home Rental VP";
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Yu Gothic UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Title.ForeColor = System.Drawing.Color.IndianRed;
+            this.Title.Location = new System.Drawing.Point(68, 31);
+            this.Title.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(176, 30);
+            this.Title.TabIndex = 1;
+            this.Title.Text = "Home Rental VP";
             // 
-            // bunifuThinButton21
+            // LoginButton
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Register";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 3;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.IndianRed;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(93, 225);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(218, 53);
-            this.bunifuThinButton21.TabIndex = 2;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginButton.ActiveBorderThickness = 3;
+            this.LoginButton.ActiveCornerRadius = 20;
+            this.LoginButton.ActiveFillColor = System.Drawing.Color.Brown;
+            this.LoginButton.ActiveForecolor = System.Drawing.Color.White;
+            this.LoginButton.ActiveLineColor = System.Drawing.Color.White;
+            this.LoginButton.BackColor = System.Drawing.Color.Silver;
+            this.LoginButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginButton.BackgroundImage")));
+            this.LoginButton.ButtonText = "Login";
+            this.LoginButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.LoginButton.IdleBorderThickness = 3;
+            this.LoginButton.IdleCornerRadius = 20;
+            this.LoginButton.IdleFillColor = System.Drawing.Color.IndianRed;
+            this.LoginButton.IdleForecolor = System.Drawing.Color.White;
+            this.LoginButton.IdleLineColor = System.Drawing.Color.White;
+            this.LoginButton.Location = new System.Drawing.Point(70, 226);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(164, 43);
+            this.LoginButton.TabIndex = 3;
+            this.LoginButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
-            // bunifuThinButton22
+            // RegisterButton
             // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Login";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 3;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.IndianRed;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(93, 277);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(218, 53);
-            this.bunifuThinButton22.TabIndex = 3;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RegisterButton.ActiveBorderThickness = 3;
+            this.RegisterButton.ActiveCornerRadius = 20;
+            this.RegisterButton.ActiveFillColor = System.Drawing.Color.Brown;
+            this.RegisterButton.ActiveForecolor = System.Drawing.Color.White;
+            this.RegisterButton.ActiveLineColor = System.Drawing.Color.White;
+            this.RegisterButton.BackColor = System.Drawing.Color.Silver;
+            this.RegisterButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegisterButton.BackgroundImage")));
+            this.RegisterButton.ButtonText = "Register";
+            this.RegisterButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RegisterButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.RegisterButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.RegisterButton.IdleBorderThickness = 3;
+            this.RegisterButton.IdleCornerRadius = 20;
+            this.RegisterButton.IdleFillColor = System.Drawing.Color.IndianRed;
+            this.RegisterButton.IdleForecolor = System.Drawing.Color.White;
+            this.RegisterButton.IdleLineColor = System.Drawing.Color.White;
+            this.RegisterButton.Location = new System.Drawing.Point(70, 183);
+            this.RegisterButton.Margin = new System.Windows.Forms.Padding(4);
+            this.RegisterButton.Name = "RegisterButton";
+            this.RegisterButton.Size = new System.Drawing.Size(164, 43);
+            this.RegisterButton.TabIndex = 2;
+            this.RegisterButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
-            // pictureBox1
+            // Logo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(68, 40);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 247);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.Logo.BackColor = System.Drawing.Color.Transparent;
+            this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
+            this.Logo.Location = new System.Drawing.Point(51, 30);
+            this.Logo.Margin = new System.Windows.Forms.Padding(2);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(200, 201);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 4;
+            this.Logo.TabStop = false;
             // 
-            // Form1
+            // CloseButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
+            this.CloseButton.Location = new System.Drawing.Point(241, -2);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(2);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(75, 41);
+            this.CloseButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CloseButton.TabIndex = 5;
+            this.CloseButton.TabStop = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 339);
-            this.Controls.Add(this.bunifuThinButton22);
-            this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(299, 275);
+            this.Controls.Add(this.LoginButton);
+            this.Controls.Add(this.RegisterButton);
+            this.Controls.Add(this.Title);
+            this.Controls.Add(this.Logo);
+            this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Title;
+        private Bunifu.Framework.UI.BunifuThinButton2 RegisterButton;
+        private Bunifu.Framework.UI.BunifuThinButton2 LoginButton;
+        private System.Windows.Forms.PictureBox Logo;
+        private System.Windows.Forms.PictureBox CloseButton;
     }
 }
 
