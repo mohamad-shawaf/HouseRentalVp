@@ -64,5 +64,12 @@ namespace HouseRentalVp
             showPassImage.Visible = false;
             hidePassImage.Visible = true;
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            Tenants tenants = new Tenants();
+            tenants.Show();
+            this.Hide();
+        }
     }
 }

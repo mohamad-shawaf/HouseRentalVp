@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.password = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,9 +58,10 @@
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.password.ForeColor = System.Drawing.Color.IndianRed;
-            this.password.Location = new System.Drawing.Point(117, 267);
+            this.password.Location = new System.Drawing.Point(156, 329);
+            this.password.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(91, 21);
+            this.password.Size = new System.Drawing.Size(115, 26);
             this.password.TabIndex = 18;
             this.password.Text = "Password:";
             // 
@@ -69,9 +70,10 @@
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.email.ForeColor = System.Drawing.Color.IndianRed;
-            this.email.Location = new System.Drawing.Point(117, 181);
+            this.email.Location = new System.Drawing.Point(156, 223);
+            this.email.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(59, 21);
+            this.email.Size = new System.Drawing.Size(73, 26);
             this.email.TabIndex = 16;
             this.email.Text = "Email:";
             // 
@@ -80,9 +82,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.IndianRed;
-            this.label2.Location = new System.Drawing.Point(111, 120);
+            this.label2.Location = new System.Drawing.Point(148, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(390, 21);
+            this.label2.Size = new System.Drawing.Size(486, 26);
             this.label2.TabIndex = 13;
             this.label2.Text = "Login to your account to continue to the dashboard";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -92,9 +95,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(271, 86);
+            this.label1.Location = new System.Drawing.Point(361, 106);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 27);
+            this.label1.Size = new System.Drawing.Size(89, 35);
             this.label1.TabIndex = 12;
             this.label1.Text = "Login";
             // 
@@ -103,9 +107,10 @@
             this.noAccount.AutoSize = true;
             this.noAccount.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.noAccount.ForeColor = System.Drawing.Color.IndianRed;
-            this.noAccount.Location = new System.Drawing.Point(172, 447);
+            this.noAccount.Location = new System.Drawing.Point(229, 550);
+            this.noAccount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noAccount.Name = "noAccount";
-            this.noAccount.Size = new System.Drawing.Size(251, 21);
+            this.noAccount.Size = new System.Drawing.Size(311, 26);
             this.noAccount.TabIndex = 13;
             this.noAccount.Text = "Don\'t have an account? register!";
             this.noAccount.Click += new System.EventHandler(this.no_account);
@@ -113,10 +118,10 @@
             // CloseButton
             // 
             this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
-            this.CloseButton.Location = new System.Drawing.Point(541, -2);
-            this.CloseButton.Margin = new System.Windows.Forms.Padding(2);
+            this.CloseButton.Location = new System.Drawing.Point(721, -2);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(75, 41);
+            this.CloseButton.Size = new System.Drawing.Size(100, 50);
             this.CloseButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CloseButton.TabIndex = 23;
             this.CloseButton.TabStop = false;
@@ -140,12 +145,13 @@
             this.loginButton.IdleFillColor = System.Drawing.Color.IndianRed;
             this.loginButton.IdleForecolor = System.Drawing.Color.White;
             this.loginButton.IdleLineColor = System.Drawing.Color.White;
-            this.loginButton.Location = new System.Drawing.Point(115, 388);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(5);
+            this.loginButton.Location = new System.Drawing.Point(153, 478);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(386, 54);
+            this.loginButton.Size = new System.Drawing.Size(515, 66);
             this.loginButton.TabIndex = 22;
             this.loginButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // passwordTextBox
             // 
@@ -174,33 +180,34 @@
             this.passwordTextBox.IconRight = ((System.Drawing.Image)(resources.GetObject("passwordTextBox.IconRight")));
             this.passwordTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.passwordTextBox.Lines = new string[0];
-            this.passwordTextBox.Location = new System.Drawing.Point(115, 291);
+            this.passwordTextBox.Location = new System.Drawing.Point(153, 358);
+            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.passwordTextBox.MaxLength = 32767;
             this.passwordTextBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.passwordTextBox.Modified = false;
             this.passwordTextBox.Multiline = false;
             this.passwordTextBox.Name = "passwordTextBox";
-            stateProperties25.BorderColor = System.Drawing.Color.Brown;
-            stateProperties25.FillColor = System.Drawing.Color.Empty;
-            stateProperties25.ForeColor = System.Drawing.Color.Empty;
-            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.passwordTextBox.OnActiveState = stateProperties25;
-            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.passwordTextBox.OnDisabledState = stateProperties26;
-            stateProperties27.BorderColor = System.Drawing.Color.Brown;
-            stateProperties27.FillColor = System.Drawing.Color.Empty;
-            stateProperties27.ForeColor = System.Drawing.Color.Empty;
-            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.passwordTextBox.OnHoverState = stateProperties27;
-            stateProperties28.BorderColor = System.Drawing.Color.White;
-            stateProperties28.FillColor = System.Drawing.Color.IndianRed;
-            stateProperties28.ForeColor = System.Drawing.Color.Empty;
-            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.passwordTextBox.OnIdleState = stateProperties28;
-            this.passwordTextBox.Padding = new System.Windows.Forms.Padding(3);
+            stateProperties1.BorderColor = System.Drawing.Color.Brown;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.passwordTextBox.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.passwordTextBox.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.Brown;
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.passwordTextBox.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.White;
+            stateProperties4.FillColor = System.Drawing.Color.IndianRed;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.passwordTextBox.OnIdleState = stateProperties4;
+            this.passwordTextBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.passwordTextBox.PasswordChar = '\0';
             this.passwordTextBox.PlaceholderForeColor = System.Drawing.Color.White;
             this.passwordTextBox.PlaceholderText = "Enter your password";
@@ -210,7 +217,7 @@
             this.passwordTextBox.SelectionLength = 0;
             this.passwordTextBox.SelectionStart = 0;
             this.passwordTextBox.ShortcutsEnabled = true;
-            this.passwordTextBox.Size = new System.Drawing.Size(386, 40);
+            this.passwordTextBox.Size = new System.Drawing.Size(515, 49);
             this.passwordTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.passwordTextBox.TabIndex = 19;
             this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -249,33 +256,34 @@
             this.emailTextBox.IconRight = ((System.Drawing.Image)(resources.GetObject("emailTextBox.IconRight")));
             this.emailTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.emailTextBox.Lines = new string[0];
-            this.emailTextBox.Location = new System.Drawing.Point(115, 205);
+            this.emailTextBox.Location = new System.Drawing.Point(153, 252);
+            this.emailTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.emailTextBox.MaxLength = 32767;
             this.emailTextBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.emailTextBox.Modified = false;
             this.emailTextBox.Multiline = false;
             this.emailTextBox.Name = "emailTextBox";
-            stateProperties29.BorderColor = System.Drawing.Color.Brown;
-            stateProperties29.FillColor = System.Drawing.Color.Empty;
-            stateProperties29.ForeColor = System.Drawing.Color.Empty;
-            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.emailTextBox.OnActiveState = stateProperties29;
-            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.emailTextBox.OnDisabledState = stateProperties30;
-            stateProperties31.BorderColor = System.Drawing.Color.Brown;
-            stateProperties31.FillColor = System.Drawing.Color.Empty;
-            stateProperties31.ForeColor = System.Drawing.Color.Empty;
-            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.emailTextBox.OnHoverState = stateProperties31;
-            stateProperties32.BorderColor = System.Drawing.Color.White;
-            stateProperties32.FillColor = System.Drawing.Color.IndianRed;
-            stateProperties32.ForeColor = System.Drawing.Color.Empty;
-            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.emailTextBox.OnIdleState = stateProperties32;
-            this.emailTextBox.Padding = new System.Windows.Forms.Padding(3);
+            stateProperties5.BorderColor = System.Drawing.Color.Brown;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.emailTextBox.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.emailTextBox.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.Brown;
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.emailTextBox.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.White;
+            stateProperties8.FillColor = System.Drawing.Color.IndianRed;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.emailTextBox.OnIdleState = stateProperties8;
+            this.emailTextBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.emailTextBox.PasswordChar = '\0';
             this.emailTextBox.PlaceholderForeColor = System.Drawing.Color.White;
             this.emailTextBox.PlaceholderText = "Enter your email";
@@ -285,7 +293,7 @@
             this.emailTextBox.SelectionLength = 0;
             this.emailTextBox.SelectionStart = 0;
             this.emailTextBox.ShortcutsEnabled = true;
-            this.emailTextBox.Size = new System.Drawing.Size(386, 40);
+            this.emailTextBox.Size = new System.Drawing.Size(515, 49);
             this.emailTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.emailTextBox.TabIndex = 17;
             this.emailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -300,9 +308,10 @@
             // 
             this.showPassImage.BackColor = System.Drawing.Color.IndianRed;
             this.showPassImage.Image = ((System.Drawing.Image)(resources.GetObject("showPassImage.Image")));
-            this.showPassImage.Location = new System.Drawing.Point(425, 296);
+            this.showPassImage.Location = new System.Drawing.Point(567, 364);
+            this.showPassImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.showPassImage.Name = "showPassImage";
-            this.showPassImage.Size = new System.Drawing.Size(39, 30);
+            this.showPassImage.Size = new System.Drawing.Size(52, 37);
             this.showPassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.showPassImage.TabIndex = 24;
             this.showPassImage.TabStop = false;
@@ -312,9 +321,10 @@
             // 
             this.hidePassImage.BackColor = System.Drawing.Color.IndianRed;
             this.hidePassImage.Image = ((System.Drawing.Image)(resources.GetObject("hidePassImage.Image")));
-            this.hidePassImage.Location = new System.Drawing.Point(425, 296);
+            this.hidePassImage.Location = new System.Drawing.Point(567, 364);
+            this.hidePassImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.hidePassImage.Name = "hidePassImage";
-            this.hidePassImage.Size = new System.Drawing.Size(39, 30);
+            this.hidePassImage.Size = new System.Drawing.Size(52, 37);
             this.hidePassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hidePassImage.TabIndex = 25;
             this.hidePassImage.TabStop = false;
@@ -322,10 +332,10 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(599, 517);
+            this.ClientSize = new System.Drawing.Size(799, 636);
             this.Controls.Add(this.hidePassImage);
             this.Controls.Add(this.showPassImage);
             this.Controls.Add(this.CloseButton);
@@ -338,6 +348,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
