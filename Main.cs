@@ -31,8 +31,6 @@ namespace HouseRentalVp
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            RegistrationForm registrationForm = new RegistrationForm();
-            registrationForm.Show();
             this.Hide();
         }
 

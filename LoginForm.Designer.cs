@@ -42,15 +42,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.noAccount = new System.Windows.Forms.Label();
+            this.hidePassImage = new System.Windows.Forms.PictureBox();
+            this.showPassImage = new System.Windows.Forms.PictureBox();
             this.CloseButton = new System.Windows.Forms.PictureBox();
             this.loginButton = new Bunifu.Framework.UI.BunifuThinButton2();
             this.passwordTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.emailTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.showPassImage = new System.Windows.Forms.PictureBox();
-            this.hidePassImage = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.showPassImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hidePassImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.showPassImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
             this.SuspendLayout();
             // 
             // password
@@ -58,10 +58,9 @@
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.password.ForeColor = System.Drawing.Color.IndianRed;
-            this.password.Location = new System.Drawing.Point(156, 329);
-            this.password.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.password.Location = new System.Drawing.Point(117, 267);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(115, 26);
+            this.password.Size = new System.Drawing.Size(91, 21);
             this.password.TabIndex = 18;
             this.password.Text = "Password:";
             // 
@@ -70,10 +69,9 @@
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.email.ForeColor = System.Drawing.Color.IndianRed;
-            this.email.Location = new System.Drawing.Point(156, 223);
-            this.email.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.email.Location = new System.Drawing.Point(117, 181);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(73, 26);
+            this.email.Size = new System.Drawing.Size(59, 21);
             this.email.TabIndex = 16;
             this.email.Text = "Email:";
             // 
@@ -82,10 +80,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.IndianRed;
-            this.label2.Location = new System.Drawing.Point(148, 148);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(111, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(486, 26);
+            this.label2.Size = new System.Drawing.Size(390, 21);
             this.label2.TabIndex = 13;
             this.label2.Text = "Login to your account to continue to the dashboard";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -95,10 +92,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(361, 106);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(271, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 35);
+            this.label1.Size = new System.Drawing.Size(68, 27);
             this.label1.TabIndex = 12;
             this.label1.Text = "Login";
             // 
@@ -107,21 +103,44 @@
             this.noAccount.AutoSize = true;
             this.noAccount.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.noAccount.ForeColor = System.Drawing.Color.IndianRed;
-            this.noAccount.Location = new System.Drawing.Point(229, 550);
-            this.noAccount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.noAccount.Location = new System.Drawing.Point(172, 447);
             this.noAccount.Name = "noAccount";
-            this.noAccount.Size = new System.Drawing.Size(311, 26);
+            this.noAccount.Size = new System.Drawing.Size(251, 21);
             this.noAccount.TabIndex = 13;
             this.noAccount.Text = "Don\'t have an account? register!";
             this.noAccount.Click += new System.EventHandler(this.no_account);
             // 
+            // hidePassImage
+            // 
+            this.hidePassImage.BackColor = System.Drawing.Color.IndianRed;
+            this.hidePassImage.Image = ((System.Drawing.Image)(resources.GetObject("hidePassImage.Image")));
+            this.hidePassImage.Location = new System.Drawing.Point(425, 296);
+            this.hidePassImage.Name = "hidePassImage";
+            this.hidePassImage.Size = new System.Drawing.Size(39, 30);
+            this.hidePassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hidePassImage.TabIndex = 25;
+            this.hidePassImage.TabStop = false;
+            this.hidePassImage.Click += new System.EventHandler(this.hidePassImage_Click);
+            // 
+            // showPassImage
+            // 
+            this.showPassImage.BackColor = System.Drawing.Color.IndianRed;
+            this.showPassImage.Image = ((System.Drawing.Image)(resources.GetObject("showPassImage.Image")));
+            this.showPassImage.Location = new System.Drawing.Point(425, 296);
+            this.showPassImage.Name = "showPassImage";
+            this.showPassImage.Size = new System.Drawing.Size(39, 30);
+            this.showPassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.showPassImage.TabIndex = 24;
+            this.showPassImage.TabStop = false;
+            this.showPassImage.Click += new System.EventHandler(this.showPassImage_Click);
+            // 
             // CloseButton
             // 
             this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
-            this.CloseButton.Location = new System.Drawing.Point(721, -2);
-            this.CloseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CloseButton.Location = new System.Drawing.Point(541, -2);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(2);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(100, 50);
+            this.CloseButton.Size = new System.Drawing.Size(75, 41);
             this.CloseButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CloseButton.TabIndex = 23;
             this.CloseButton.TabStop = false;
@@ -145,10 +164,10 @@
             this.loginButton.IdleFillColor = System.Drawing.Color.IndianRed;
             this.loginButton.IdleForecolor = System.Drawing.Color.White;
             this.loginButton.IdleLineColor = System.Drawing.Color.White;
-            this.loginButton.Location = new System.Drawing.Point(153, 478);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.loginButton.Location = new System.Drawing.Point(115, 388);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(5);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(515, 66);
+            this.loginButton.Size = new System.Drawing.Size(386, 54);
             this.loginButton.TabIndex = 22;
             this.loginButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
@@ -180,8 +199,7 @@
             this.passwordTextBox.IconRight = ((System.Drawing.Image)(resources.GetObject("passwordTextBox.IconRight")));
             this.passwordTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.passwordTextBox.Lines = new string[0];
-            this.passwordTextBox.Location = new System.Drawing.Point(153, 358);
-            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordTextBox.Location = new System.Drawing.Point(115, 291);
             this.passwordTextBox.MaxLength = 32767;
             this.passwordTextBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.passwordTextBox.Modified = false;
@@ -207,7 +225,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.passwordTextBox.OnIdleState = stateProperties4;
-            this.passwordTextBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordTextBox.Padding = new System.Windows.Forms.Padding(3);
             this.passwordTextBox.PasswordChar = '\0';
             this.passwordTextBox.PlaceholderForeColor = System.Drawing.Color.White;
             this.passwordTextBox.PlaceholderText = "Enter your password";
@@ -217,7 +235,7 @@
             this.passwordTextBox.SelectionLength = 0;
             this.passwordTextBox.SelectionStart = 0;
             this.passwordTextBox.ShortcutsEnabled = true;
-            this.passwordTextBox.Size = new System.Drawing.Size(515, 49);
+            this.passwordTextBox.Size = new System.Drawing.Size(386, 40);
             this.passwordTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.passwordTextBox.TabIndex = 19;
             this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -256,8 +274,7 @@
             this.emailTextBox.IconRight = ((System.Drawing.Image)(resources.GetObject("emailTextBox.IconRight")));
             this.emailTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.emailTextBox.Lines = new string[0];
-            this.emailTextBox.Location = new System.Drawing.Point(153, 252);
-            this.emailTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.emailTextBox.Location = new System.Drawing.Point(115, 205);
             this.emailTextBox.MaxLength = 32767;
             this.emailTextBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.emailTextBox.Modified = false;
@@ -283,7 +300,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.emailTextBox.OnIdleState = stateProperties8;
-            this.emailTextBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.emailTextBox.Padding = new System.Windows.Forms.Padding(3);
             this.emailTextBox.PasswordChar = '\0';
             this.emailTextBox.PlaceholderForeColor = System.Drawing.Color.White;
             this.emailTextBox.PlaceholderText = "Enter your email";
@@ -293,7 +310,7 @@
             this.emailTextBox.SelectionLength = 0;
             this.emailTextBox.SelectionStart = 0;
             this.emailTextBox.ShortcutsEnabled = true;
-            this.emailTextBox.Size = new System.Drawing.Size(515, 49);
+            this.emailTextBox.Size = new System.Drawing.Size(386, 40);
             this.emailTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.emailTextBox.TabIndex = 17;
             this.emailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -303,39 +320,14 @@
             this.emailTextBox.TextPlaceholder = "Enter your email";
             this.emailTextBox.UseSystemPasswordChar = false;
             this.emailTextBox.WordWrap = true;
-            // 
-            // showPassImage
-            // 
-            this.showPassImage.BackColor = System.Drawing.Color.IndianRed;
-            this.showPassImage.Image = ((System.Drawing.Image)(resources.GetObject("showPassImage.Image")));
-            this.showPassImage.Location = new System.Drawing.Point(567, 364);
-            this.showPassImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.showPassImage.Name = "showPassImage";
-            this.showPassImage.Size = new System.Drawing.Size(52, 37);
-            this.showPassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.showPassImage.TabIndex = 24;
-            this.showPassImage.TabStop = false;
-            this.showPassImage.Click += new System.EventHandler(this.showPassImage_Click);
-            // 
-            // hidePassImage
-            // 
-            this.hidePassImage.BackColor = System.Drawing.Color.IndianRed;
-            this.hidePassImage.Image = ((System.Drawing.Image)(resources.GetObject("hidePassImage.Image")));
-            this.hidePassImage.Location = new System.Drawing.Point(567, 364);
-            this.hidePassImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.hidePassImage.Name = "hidePassImage";
-            this.hidePassImage.Size = new System.Drawing.Size(52, 37);
-            this.hidePassImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.hidePassImage.TabIndex = 25;
-            this.hidePassImage.TabStop = false;
-            this.hidePassImage.Click += new System.EventHandler(this.hidePassImage_Click);
+            this.emailTextBox.TextChanged += new System.EventHandler(this.emailTextBox_TextChanged);
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(799, 636);
+            this.ClientSize = new System.Drawing.Size(599, 517);
             this.Controls.Add(this.hidePassImage);
             this.Controls.Add(this.showPassImage);
             this.Controls.Add(this.CloseButton);
@@ -348,13 +340,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
-            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.showPassImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hidePassImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.showPassImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
