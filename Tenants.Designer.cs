@@ -86,7 +86,7 @@ namespace HouseRentalVp
             this.label8.ForeColor = System.Drawing.Color.Brown;
             this.label8.Location = new System.Drawing.Point(374, 302);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(129, 31);
+            this.label8.Size = new System.Drawing.Size(107, 25);
             this.label8.TabIndex = 0;
             this.label8.Text = "Tenants list";
             // 
@@ -95,7 +95,7 @@ namespace HouseRentalVp
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(817, 226);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 25);
+            this.comboBox1.Size = new System.Drawing.Size(177, 20);
             this.comboBox1.TabIndex = 9;
             // 
             // label9
@@ -106,7 +106,7 @@ namespace HouseRentalVp
             this.label9.ForeColor = System.Drawing.Color.Brown;
             this.label9.Location = new System.Drawing.Point(266, 195);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 20);
+            this.label9.Size = new System.Drawing.Size(39, 15);
             this.label9.TabIndex = 2;
             this.label9.Text = "Name";
             // 
@@ -118,7 +118,7 @@ namespace HouseRentalVp
             this.label10.ForeColor = System.Drawing.Color.Brown;
             this.label10.Location = new System.Drawing.Point(521, 195);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 20);
+            this.label10.Size = new System.Drawing.Size(41, 15);
             this.label10.TabIndex = 2;
             this.label10.Text = "Phone";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -250,7 +250,7 @@ namespace HouseRentalVp
             this.bunifuTextBox2.SelectionLength = 0;
             this.bunifuTextBox2.SelectionStart = 0;
             this.bunifuTextBox2.ShortcutsEnabled = true;
-            this.bunifuTextBox2.Size = new System.Drawing.Size(220, 41);
+            this.bunifuTextBox2.Size = new System.Drawing.Size(220, 37);
             this.bunifuTextBox2.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2.TabIndex = 11;
             this.bunifuTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -324,7 +324,7 @@ namespace HouseRentalVp
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(220, 41);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(220, 37);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1.TabIndex = 11;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -383,7 +383,7 @@ namespace HouseRentalVp
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(74, 573);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 32);
+            this.label7.Size = new System.Drawing.Size(72, 25);
             this.label7.TabIndex = 2;
             this.label7.Text = "Logout";
             // 
@@ -395,7 +395,7 @@ namespace HouseRentalVp
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(73, 448);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 32);
+            this.label6.Size = new System.Drawing.Size(90, 25);
             this.label6.TabIndex = 2;
             this.label6.Text = "Category";
             // 
@@ -407,7 +407,7 @@ namespace HouseRentalVp
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(74, 377);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 32);
+            this.label5.Size = new System.Drawing.Size(60, 25);
             this.label5.TabIndex = 2;
             this.label5.Text = "Rents";
             // 
@@ -419,7 +419,7 @@ namespace HouseRentalVp
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(74, 302);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 32);
+            this.label4.Size = new System.Drawing.Size(95, 25);
             this.label4.TabIndex = 2;
             this.label4.Text = "Landlords";
             // 
@@ -431,7 +431,7 @@ namespace HouseRentalVp
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(73, 231);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 32);
+            this.label3.Size = new System.Drawing.Size(113, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Apartments";
             // 
@@ -443,7 +443,7 @@ namespace HouseRentalVp
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(74, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 32);
+            this.label2.Size = new System.Drawing.Size(77, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tenants";
             // 
@@ -542,7 +542,7 @@ namespace HouseRentalVp
             // 
             // Tenants
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1193, 643);

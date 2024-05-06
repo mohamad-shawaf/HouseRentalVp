@@ -114,5 +114,15 @@ namespace HouseRentalVp
             showPassImage2.Visible = true;
             hidePassImage2.Visible = false;
         }
+
+        private void roleDropDown_MouseHover(object sender, EventArgs e)
+        {
+            roleDropDown.BorderColor = Color.Brown;
+        }
+
+        private void roleDropDown_MouseLeave(object sender, EventArgs e)
+        {
+            roleDropDown.BorderColor = Color.White;
+        }
     }
 }
